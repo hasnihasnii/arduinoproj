@@ -1,8 +1,10 @@
-# Basic LED Blink
+# 💡 Basic LED Blink
 
 A basic Arduino project that demonstrates how to **turn an LED ON and OFF at regular intervals** using an Arduino.
 
-This is one of the simplest projects for getting started with Arduino and understanding digital output.
+This is one of the simplest projects for getting started with Arduino and understanding **digital output**.
+
+---
 
 ## 🛠️ Components Required
 
@@ -11,6 +13,8 @@ This is one of the simplest projects for getting started with Arduino and unders
 * 220Ω resistor
 * Breadboard
 * Jumper wires
+
+---
 
 ## 🔌 Circuit
 
@@ -21,6 +25,8 @@ This is one of the simplest projects for getting started with Arduino and unders
 | Resistor        | Connected in series with LED |
 
 > ⚠️ Always use a resistor with an LED to limit the current.
+
+---
 
 ## 💻 Code
 
@@ -33,7 +39,7 @@ The Arduino program:
 5. Waits for **5 seconds**.
 6. Repeats continuously.
 
-
+---
 
 ## 🎯 Concepts Learned
 
@@ -44,9 +50,25 @@ The Arduino program:
 * Basic Arduino programming
 * LED control
 
-## 🚀 How It Works
-Arduino Pin 7 (any digital pin can be used) --> LED ON --> Wait 5 sec --> LED OFF --> Wait 5 sec --> Repeat
+---
 
+## 🚀 How It Works
+
+**Arduino Pin 7**
+↓
+**LED ON**
+↓
+**Wait 5 seconds**
+↓
+**LED OFF**
+↓
+**Wait 5 seconds**
+↓
+**Repeat**
+
+> 💡 Any suitable digital pin can be used instead of Pin 7 by changing the pin number in the code.
+
+---
 
 ## 📌 Note
 
